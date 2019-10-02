@@ -1,6 +1,6 @@
 version: 2
 jobs:
-  build_gcc:
+  build:
     
     docker:
       - image: debian:stretch
@@ -18,11 +18,11 @@ jobs:
           name: Build test
           command: make test
       - run:
-          name: Print the Current Time
+          name: Print the current time
           command: date
   
 workflows:
   version: 2
   build_and_test:
     jobs:
-      - build_gcc
+      - build
