@@ -1,5 +1,6 @@
 # CDFCI（坐标下降完全组态相互作用算法）
 [![CircleCI](https://circleci.com/gh/quan-tum/CDFCI.svg?style=svg)](https://circleci.com/gh/quan-tum/CDFCI)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/quan-tum/CDFCI)
 
 本软件包是一个简单而高效的CDFCI（Coordinate Descent Full Configuration Interaction, 坐标下降完全组态相互作用算法）算法的实现。本软件包使用C++14标准。
 
@@ -106,6 +107,9 @@ make test
 * [王喆](http://zhewang.pro/)，杜克大学数学系
 * [李颖洲](http://yingzhouli.com/)，杜克大学数学系
 * [鲁剑锋](https://services.math.duke.edu/~jianfeng/)，杜克大学数学系，物理系，化学系
+
+## 致谢
+本项目由美国国家科学基金会DMS-1454939基金和OAC-1450280基金， 以及美国能源部DE-SC0019449基金部分支持。
 
 ## 开源协议
 本软件包采用BSD 3-Clause开源协议。代码仓库根目录的LICENSE文件为协议文件。

@@ -1,5 +1,6 @@
 # CDFCI
 [![CircleCI](https://circleci.com/gh/quan-tum/CDFCI.svg?style=svg)](https://circleci.com/gh/quan-tum/CDFCI)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/quan-tum/CDFCI)
 
 This package is a simple and efficient implementation of the Coordinate Descent Full Configuration Interaction (CDFCI) algorithm using modern C++ (C++14).
 
@@ -109,6 +110,9 @@ There are 8 example quantum systems in the ```test/example``` folder. The tests 
 * [Zhe Wang](http://zhewang.pro/), Department of Mathematics, Duke University
 * [Yingzhou Li](http://yingzhouli.com/), Department of Mathematics, Duke University
 * [Jianfeng Lu](https://services.math.duke.edu/~jianfeng/), Department of Mathematics, Physics and Chemistry, Duke University
+
+## Acknowledgement
+This work is supported in part by the U.S. National Science Foundation under awards DMS-1454939 and OAC-1450280 and by the U.S. Department of Energy via grant DE-SC0019449.
 
 ## License
 This open-source project is licensed under the BSD 3-Clause License found in the LICENSE file in the root directory of this source tree.
